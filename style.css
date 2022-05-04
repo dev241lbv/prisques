@@ -1,3 +1,24 @@
 body{
     max-width: 428px;
 }
+
+/* Lunatic CSS */
+
+@font-face {
+    font-family: 'viafontregular';
+    src: url('polices/viafont-webfont.woff2') format('woff2'),
+         url('polices/viafont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.list-num p{
+    font-family: 'viafontregular';
+}
+
+#lbp{
+    font-size: 25px;
+    padding: 15px;
+}
+
+/* Lunatic CSS Fin */
