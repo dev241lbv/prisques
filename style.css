@@ -6,19 +6,53 @@ body{
 
 @font-face {
     font-family: 'viafontregular';
-    src: url('polices/viafont-webfont.woff2') format('woff2'),
-         url('polices/viafont-webfont.woff') format('woff');
+    src: url('viafont-webfont.woff2') format('woff2'),
+         url('viafont-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-.list-num p{
-    font-family: 'viafontregular';
+
+@font-face {
+    font-family: 'assassinregular';
+    src: url('assassin-webfont.woff2') format('woff2'),
+         url('assassin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-#lbp{
+.list-num p{
+
+    font-family: 'assassinregular'; 
+    font-size: 22px;
+}
+
+.list-num p:hover{
+    background-color: rgb(0, 252, 206);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+
+
+#lbt{
     font-size: 25px;
-    padding: 15px;
+    padding: 10px;
+    font-family: 'viafontregular';
+    margin-left: 25px;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#lbt:hover{
+    background-color: rgba(0, 0, 0, 0.839);
+    color: white;
+    border: 3px solid rgb(0, 252, 206);
+
 }
 
 /* Lunatic CSS Fin */
