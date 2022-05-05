@@ -36,8 +36,6 @@ body{
     
 }
 
-
-
 #lbt{
     font-size: 25px;
     padding: 10px;
@@ -56,3 +54,33 @@ body{
 }
 
 /* Lunatic CSS Fin */
+
+/* Partie d'orphée */
+main .parentDorphee{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes animationDorphee {
+    from{color: blue;}
+    to{color: red;}
+}
+main .orphee{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: cadetblue;
+    font-weight: bold;
+    transition: all 1s;
+    animation: animationDorphee infinite ease-in-out 0.2s;
+    
+}
+header {
+    font-size: 1rem;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    overflow: auto;
+}
